@@ -1,0 +1,49 @@
+body{
+	background-color:#330000;
+}
+.myheader h1{
+	font-size:50px;
+	position: static;
+	width: 100%;
+	text-align: center;
+	color:tomato;
+}
+.mybody{
+	position: static;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	color:orange;
+	top:20%
+}
+.myfooter{
+	position: static;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color:orange;
+	top:80%
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+input[type="text"]
+{
+    font-size:25px;
+	width:75%;
+}
+input[type="number"]{
+	width:%20;
+	font-size:25px;
+}
+button{
+	width:50%;
+	font-size:25px;
+}
