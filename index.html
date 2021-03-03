@@ -42,9 +42,11 @@
             <div class="container m-3 ">
                 <label class="visually-hidden" for="password">Password: </label>
                 <div class="container">
-                    <input class="container" type="text" id="password" name="password" placeholder="Your new password will appear here." value="">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-10"><input class="container" type="text" id="password" name="password" placeholder="Your new password will appear here." value=""></div>
+                        <div class="col-2"><button class="btn btn-primary" type="button" onclick="copyText()">Copy</button></div>
+                    </div>
                 </div>
-                
             </div>
             <div class="container m-3">
                 <div class="d-grid gap-2 col-6 mx-auto">

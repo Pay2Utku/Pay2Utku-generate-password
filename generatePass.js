@@ -3,6 +3,14 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
 }
 
+function copyText(){
+	text = document.getElementById("password");
+	if(document.getElementById("password").value != ""){
+		text.select();
+		document.execCommand("copy");
+	}
+	
+}
 
 function generatePass(){
 	var charss=[];
